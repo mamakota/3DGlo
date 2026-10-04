@@ -1,0 +1,26 @@
+{
+  "name": "3dglo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mamakota/3DGlo#readme",
+  "bugs": {
+    "url": "https://github.com/mamakota/3DGlo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamakota/3DGlo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development",
+    "start": "webpack server --mode=development --open"
+  },
+  "devDependencies": {
+    "webpack": "^5.111.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
