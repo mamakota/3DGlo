@@ -5,6 +5,7 @@ import scrollToElem from "./modules/scroll.js";
 import calculator from "./modules/calculator.js";
 import validation from "./modules/validation.js";
 import tabs from "./modules/tabs.js";
+import slider from "./modules/slider.js";
 
 timer("7 october 2026");
 menu();
@@ -13,3 +14,4 @@ scrollToElem();
 calculator();
 validation();
 tabs();
+slider();
